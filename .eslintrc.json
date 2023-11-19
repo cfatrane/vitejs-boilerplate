@@ -38,6 +38,11 @@
             "position": "before"
           },
           {
+            "pattern": "vite",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
             "pattern": "api/**",
             "group": "internal",
             "position": "after"
