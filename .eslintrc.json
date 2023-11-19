@@ -17,7 +17,15 @@
     "import/order": [
       2,
       {
-        "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "type"],
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "type"
+        ],
         "newlines-between": "always",
         "pathGroups": [
           {
@@ -52,7 +60,7 @@
             "position": "after"
           },
           {
-            "pattern": "navigation",
+            "pattern": "pages/**",
             "group": "internal",
             "position": "after"
           },
@@ -62,7 +70,7 @@
             "position": "after"
           },
           {
-            "pattern": "screens/**",
+            "pattern": "routes/**",
             "group": "internal",
             "position": "after"
           },
